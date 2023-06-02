@@ -4,16 +4,16 @@
 #include "energia.h"
 
 //Rows Are Input
-#define R0  19
-#define R1  17
-#define R2  13
-#define R3  12
+#define R0  40
+#define R1  39
+#define R2  38
+#define R3  37
 
 //Collumns are Output
-#define C0  11
-#define C1  31
-#define C2  32
-#define C3  29
+#define C0  36
+#define C1  35
+#define C2  34
+#define C3  33
 
 
 void init_Keypad();

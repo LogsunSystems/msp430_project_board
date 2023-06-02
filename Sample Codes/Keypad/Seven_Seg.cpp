@@ -133,15 +133,74 @@ void Display(uint8_t iVal,boolean dp){
           break;
 
 
-      case 'f':
+      case 'A':
+          digitalWrite(A,LOW);
+          digitalWrite(B,LOW);
+          digitalWrite(C,LOW);
+          digitalWrite(D,HIGH);
+          digitalWrite(E,LOW);
+          digitalWrite(F,LOW);
+          digitalWrite(G,LOW);
+          dp?digitalWrite(DP,LOW):digitalWrite(DP,HIGH);
+          break;
+        
+
+      case 'B':
           digitalWrite(A,HIGH);
+          digitalWrite(B,HIGH);
+          digitalWrite(C,LOW);
+          digitalWrite(D,LOW);
+          digitalWrite(E,LOW);
+          digitalWrite(F,LOW);
+          digitalWrite(G,LOW);
+          dp?digitalWrite(DP,LOW):digitalWrite(DP,HIGH);
+          break;
+
+
+      case 'C':
+          digitalWrite(A,LOW);
+          digitalWrite(B,HIGH);
+          digitalWrite(C,HIGH);
+          digitalWrite(D,LOW);
+          digitalWrite(E,LOW);
+          digitalWrite(F,LOW);
+          digitalWrite(G,HIGH);
+          dp?digitalWrite(DP,LOW):digitalWrite(DP,HIGH);
+          break;
+
+      case 'D':
+          digitalWrite(A,HIGH);
+          digitalWrite(B,LOW);
+          digitalWrite(C,LOW);
+          digitalWrite(D,LOW);
+          digitalWrite(E,LOW);
+          digitalWrite(F,HIGH);
+          digitalWrite(G,LOW);
+          dp?digitalWrite(DP,LOW):digitalWrite(DP,HIGH);
+          break;
+
+      case 'E':
+          digitalWrite(A,LOW);
+          digitalWrite(B,HIGH);
+          digitalWrite(C,HIGH);
+          digitalWrite(D,LOW);
+          digitalWrite(E,LOW);
+          digitalWrite(F,LOW);
+          digitalWrite(G,LOW);
+          dp?digitalWrite(DP,LOW):digitalWrite(DP,HIGH);
+          break;
+
+
+      case 'F':
+          digitalWrite(A,LOW);
           digitalWrite(B,HIGH);
           digitalWrite(C,HIGH);
           digitalWrite(D,HIGH);
-          digitalWrite(E,HIGH);
-          digitalWrite(F,HIGH);
-          digitalWrite(G,HIGH);
+          digitalWrite(E,LOW);
+          digitalWrite(F,LOW);
+          digitalWrite(G,LOW);
           dp?digitalWrite(DP,LOW):digitalWrite(DP,HIGH);
-        
+          break;
+          
     }
   }

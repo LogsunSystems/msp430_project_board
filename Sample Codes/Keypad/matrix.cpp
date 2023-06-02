@@ -27,32 +27,31 @@ char keyPressed(){
   digitalWrite(C3,LOW);
 
  if(digitalRead(R0)){
+  delay(350); //De-bounce delay
+  Serial.println("0");
   return('0');
  }
- else{
-  return('\0');
- }
+ 
 
   if(digitalRead(R1)){
+    delay(350); //De-bounce delay
+    Serial.println("1");
   return('1');
  }
- else{
-  return('\0');
- }
+ 
 
   if(digitalRead(R2)){
+    delay(350); //De-bounce delay
+    Serial.println("2");
   return('2');
  }
- else{
-  return('\0');
- }
-
+ 
   if(digitalRead(R3)){
+    delay(350); //De-bounce delay
+    Serial.println("3");
   return('3');
  }
- else{
-  return('\0');
- }
+ 
 
   //Scan All rows in Collumn-2
 
@@ -62,21 +61,28 @@ char keyPressed(){
   digitalWrite(C3,LOW);
 
  if(digitalRead(R0)){
+    delay(350); //De-bounce delay
+    Serial.println("4");
   return('4');
  }
  
 
   if(digitalRead(R1)){
+    delay(350); //De-bounce delay
+    Serial.println("5");
   return('5');
  }
 
 
   if(digitalRead(R2)){
+    delay(350); //De-bounce delay
+    Serial.println("6");
   return('6');
  }
  
 
   if(digitalRead(R3)){
+    delay(350); //De-bounce delay
   return('7');
  }
  
@@ -88,20 +94,27 @@ char keyPressed(){
   digitalWrite(C3,LOW);
 
  if(digitalRead(R0)){
+  delay(350); //De-bounce delay
+  Serial.println("8");
   return('8');
  }
  
 
   if(digitalRead(R1)){
+    delay(350); //De-bounce delay
+    Serial.println("9");
   return('9');
  }
  
 
   if(digitalRead(R2)){
+    delay(350); //De-bounce delay
   return('A');
  }
  
   if(digitalRead(R3)){
+    delay(350); //De-bounce delay
+    Serial.println("B");
   return('B');
  }
  
@@ -113,19 +126,27 @@ char keyPressed(){
   digitalWrite(C3,HIGH);
 
  if(digitalRead(R0)){
+  delay(350); //De-bounce delay
+  Serial.println("C");
   return('C');
  }
  
   if(digitalRead(R1)){
+    delay(350); //De-bounce delay
+    Serial.println("D");
   return('D');
  }
  
   if(digitalRead(R2)){
+    delay(350); //De-bounce delay
+    Serial.println("E");
   return('E');
  }
  
 
   if(digitalRead(R3)){
+    delay(350); //De-bounce delay
+    Serial.println("F");
   return('F');
  }
  

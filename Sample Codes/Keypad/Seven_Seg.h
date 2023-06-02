@@ -12,10 +12,10 @@
 #define G            32
 #define DP           29
 
-#define DIGIT_1      40
-#define DIGIT_2      39
-#define DIGIT_3      38
-#define DIGIT_4      37
+#define DIGIT_1      23
+#define DIGIT_2      24
+#define DIGIT_3      25
+#define DIGIT_4      26
 
 
   void Init_Disp();
